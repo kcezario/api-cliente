@@ -12,3 +12,5 @@ class ClientesViewSet(viewsets.ModelViewSet):
     search_fields = ['nome', 'cpf ']
     filterset_fields = ['ativo',]
 
+
+
